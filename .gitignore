@@ -1,0 +1,7 @@
+node_modules
+yarn.lock
+to-do-list.md
+
+.DS_Store
+.cache
+.tmp

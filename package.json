@@ -1,0 +1,26 @@
+{
+  "name": "animal-say",
+  "version": "1.0.0",
+  "description": "a tip tool with animal for brower, include tosat, alert, confirm.",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "parcel docs/index.html --out-dir .tmp",
+    "test": "jest",
+    "clean": "rm -rf .cache .tmp",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "keywords": [
+    "animal-say",
+    "toast",
+    "alert",
+    "tip-tool",
+    "cowsay",
+    "animal",
+    "prompt"
+  ],
+  "author": "coppy",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
+  }
+}
