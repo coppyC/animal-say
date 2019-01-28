@@ -1,13 +1,23 @@
 {
   "name": "animal-say",
-  "version": "1.0.0",
-  "description": "a tip tool with animal for brower, include tosat, alert, confirm.",
-  "main": "lib/index.js",
+  "version": "0.8.0",
+  "description": "a tip tool with animal for brower, include tosat, alert, confirm, loading, progress.",
+  "main": "lib/Animal.class.js",
   "scripts": {
-    "dev": "parcel docs/index.html --out-dir .tmp",
-    "test": "jest",
+    "dev": "parcel page/index.html --out-dir .tmp",
+    "test": "yarn dev",
     "clean": "rm -rf .cache .tmp",
-    "build": "parcel build index.html --public-url ./"
+    "build": "yarn build:pages \n yarn build:lib",
+    "build:page": "rm -rf docs; parcel build page/index.html --no-source-maps --out-dir docs --public-url ./",
+    "build:lib": "parcel build lib/index.js --public-url ./",
+    "publish:npm": "npm publish"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coppyC/animal-say.git"
   },
   "keywords": [
     "animal-say",

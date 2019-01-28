@@ -1,7 +1,9 @@
 node_modules
 yarn.lock
+package-lock.json
 to-do-list.md
 
+dist
 .DS_Store
 .cache
 .tmp

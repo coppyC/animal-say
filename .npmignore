@@ -1,0 +1,11 @@
+.*.swp
+._*
+.DS_Store
+.git
+.cache
+.tmp
+page
+docs
+to-do-list.md
+yarn.lock
+package-lock.json
