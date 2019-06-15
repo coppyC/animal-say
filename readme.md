@@ -1,3 +1,6 @@
+# 在线预览
+[查看演示 / see demonstration](https://coppyc.github.io/animal-say)
+
 # What's this? / 这啥玩意啊?
 * This is an interesting tiptool for web page.
 这是一个有丶意思的网页提示工具。
@@ -86,8 +89,6 @@ animal.quiet('progress')
 
 # wiki
 [在wiki上查看更多 / see more about it on wiki](https://github.com/coppyC/animal-say/wiki)
-
-[查看演示 / see demonstration](https://coppyc.github.io/animal-say)
 
 # The End
 * If you like my work, give me a start to support my project.
