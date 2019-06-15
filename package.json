@@ -1,19 +1,22 @@
 {
   "name": "animal-say",
-  "version": "0.8.0",
+  "version": "0.8.2",
   "description": "a tip tool with animal for brower, include tosat, alert, confirm, loading, progress.",
   "main": "lib/Animal.class.js",
   "scripts": {
     "dev": "parcel page/index.html --out-dir .tmp",
-    "test": "yarn dev",
+    "test": "npm run dev",
     "clean": "rm -rf .cache .tmp",
-    "build": "yarn build:pages \n yarn build:lib",
+    "build": "npm run build:page \n npm run build:lib",
     "build:page": "rm -rf docs; parcel build page/index.html --no-source-maps --out-dir docs --public-url ./",
     "build:lib": "parcel build lib/index.js --public-url ./",
-    "publish:npm": "npm publish"
+
+    "publish:npm": "npm publish",
+    "publish:github": "git push -u origin master"
   },
   "files": [
-    "dist"
+    "dist",
+    "animals"
   ],
   "repository": {
     "type": "git",
